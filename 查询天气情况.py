@@ -18,7 +18,7 @@ import json
 data=json.loads(info)
 
 
-for i in range(4):
+for i in range(5):
     b=7*i-6
     a={"时间":data['list'][b]['dt_txt'],
    "天气情况":data['list'][b]['weather'][0]['description'],
